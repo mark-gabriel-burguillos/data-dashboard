@@ -1,0 +1,18 @@
+.SideBarOpen {
+  background-color: #161616;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SideBarOpen__Header {
+  padding: 15px 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.SideBarOpen__Open {
+  cursor: pointer;
+  height: auto;
+  width: 25px;
+}

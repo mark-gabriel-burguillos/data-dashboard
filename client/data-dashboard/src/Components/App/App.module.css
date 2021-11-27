@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Content {
+  display: flex;
+  background-color: wheat;
+  height: 100%;
+}
