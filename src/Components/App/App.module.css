@@ -1,20 +1,16 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .Content {
   display: flex;
-  background-color: wheat;
-  height: 100%;
 
-  overflow-y: scroll;
+  background-color: white;
 }
 
 .Content__Dashboard {
   margin: 20px;
-  flex: 1 1 100%;
 
   width: 100%;
 }

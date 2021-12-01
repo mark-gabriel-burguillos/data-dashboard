@@ -1,6 +1,6 @@
 .SideBar {
   background-color: #161616;
-  width: 300px;
+  width: 250px;
   display: flex;
   flex-direction: column;
 }
@@ -9,10 +9,4 @@
   padding: 15px 13px;
   display: flex;
   justify-content: flex-end;
-}
-
-.SideBar__Open {
-  cursor: pointer;
-  height: auto;
-  width: 25px;
 }
