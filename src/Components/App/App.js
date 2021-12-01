@@ -6,6 +6,7 @@ import SideBarOpen from "../SideBarOpen/SideBarOpen";
 import styles from "./App.module.css";
 
 import "./App.css";
+import Tableau from "../Tableau";
 
 const App = () => {
   const [isSideBarOpen, handleSideBarOpen] = useState(true);
@@ -20,6 +21,7 @@ const App = () => {
           <SideBarClosed handleOnClickEvent={handleSideBarOpen} />
         )}
       </div>
+      <Tableau />
     </div>
   );
 };
