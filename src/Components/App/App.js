@@ -9,10 +9,6 @@ import Tableau from "../Tableau";
 
 const tableauTables = [
   {
-    TabName: "Top X Actors by Number of Movies Involved With",
-    Link: "https://public.tableau.com/views/Official_16387492955330/TopActors?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-  },
-  {
     TabName: "Top X directors by number of movies produced",
     Link: "https://public.tableau.com/views/Official_16387492955330/TopDirectors?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
   },
