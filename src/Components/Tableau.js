@@ -2,20 +2,18 @@ import React, { useEffect, useRef } from "react";
 
 const { tableau } = window;
 
-const Tableau = () => {
+const Tableau = ({ url }) => {
   const ref = useRef(null);
-  const url =
-    "https://public.tableau.com/views/Book1_16383773963890/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link&:device=desktop";
-
-  function initViz() {
-    new tableau.Viz(ref.current, url);
-  }
 
   useEffect(() => {
     initViz();
-  }, []);
+  }, [url]);
 
-  return <div ref={ref}></div>;
+  function initViz() {
+    new tableau.Viz(ref.current, url + "&:device=desktop");
+  }
+
+  return <div ref={ref} />;
 };
 
 export default Tableau;
